@@ -49,4 +49,5 @@ function eyemap = getEyemap(im_test, mask)
     figure;
     imagesc(Eyemapt);
     eyemap = (myGeneralAnd(Eyemapl,Eyemapc)) .* Eyemapt ;
+    
 end
